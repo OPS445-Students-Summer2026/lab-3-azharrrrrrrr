@@ -1,0 +1,18 @@
+/bin/sh: 1: code: not found
+OPS445 Lab Report - System Information for running ./CheckLab3.py
+=================================================================
+    User login name: aashaikh9
+    Linux system name: aashaikh9
+    Python executable: /usr/bin/python3
+    Python version:  3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+Traceback (most recent call last):
+  File "/home/aashaikh9/ops445/lab3/lab-3-azharrrrrrrr/./CheckLab3.py", line 596, in <module>
+    displayReportHeader()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/home/aashaikh9/ops445/lab3/lab-3-azharrrrrrrr/./CheckLab3.py", line 585, in displayReportHeader
+    print('    VS Code version: ',vscode_conf())
+                                  ~~~~~~~~~~~^^
+  File "/home/aashaikh9/ops445/lab3/lab-3-azharrrrrrrr/./CheckLab3.py", line 551, in vscode_conf
+    ver = os.popen('code --version').read().split()[0]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
